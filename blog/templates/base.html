@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{% extends "base.html" %}
 {% load static %}
 <html lang="en">
 <head>
@@ -10,26 +9,18 @@
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
 </head>
 <body>
-    <!-- <header>
+    <header>
         <img src="{% static 'images/minecraft-logo.jpg' %}" alt="Minecraft Logo">
         <nav>
           <ul>
+            <li><a>{{name}}</li>
             <li><a href="home/">Home</a></li>
             <li><a href="gameplay/">Gameplay</a></li>
             <li><a href="downloads/">Downloads</a></li>
             <li><a href="community/">Community</a></li>
           </ul>
         </nav>
-    </header> -->
+    </header>
     {% block content %}
-    <main>
-        <h1>Welcome to Minecraft Interface</h1>
-        <p>Discover the ultimate Minecraft experience!</p>
-        <a href="#" class="button">Play Now</a>
-    </main>
-    <footer>
-        <p>&copy; 2023 Minecraft Interface</p>
-    </footer>
     {% endblock %}
 </body>
-</html>

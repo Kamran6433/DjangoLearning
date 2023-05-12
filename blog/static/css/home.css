@@ -78,4 +78,81 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
+/* Style the form container */
+.form {
+    background-color: #F6F6F6;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the form elements */
+  .form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2d2d2d;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #6b6b6b;
+  }
+  
+  .form button[type="submit"] {
+    background-color: #4c9bf0;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .form button[type="submit"]:hover {
+    background-color: #3a7bc6;
+  }
+  
+  .form p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .form p a {
+    color: #ff5b5b;
+  }
+  
+  /* Rainbow Colors */
+  .form label:nth-of-type(1) {
+    color: #ff5b5b;
+  }
+  .form label:nth-of-type(2) {
+    color: #ff9f1a;
+  }
+  .form label:nth-of-type(3) {
+    color: #ffca28;
+  }
+  .form label:nth-of-type(4) {
+    color: #4caf50;
+  }
+  .form label:nth-of-type(5) {
+    color: #2196f3;
+  }
+  .form label:nth-of-type(6) {
+    color: #3f51b5;
+  }
+  .form label:nth-of-type(7) {
+    color: #9c27b0;
+  }
   

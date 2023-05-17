@@ -4,6 +4,7 @@
 {% block content %}
 <div class="form">
     <form method="post" action="/create/">
+        {% csrf_token %}
         {{form.as_p}}
         <button type="submit", name="save">Create Account</button>
     </form>
